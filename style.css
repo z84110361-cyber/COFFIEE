@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eeeeee;
+  color: #333;
+ 
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+ background-color: wheat;
+}
+
+header .logo {
+  font-weight: bold;
+  font-size: 18px;
+  color: #0f9d58;
+}
+
+header nav a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+
+.hero {
+  display: flex;
+ background-color: wheat;
+
+  padding: 60px;
+  position: relative;
+}
+
+.hero-left {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.hero-left h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.hero-left p {
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.btn {
+  display: inline-block;
+  background: #0f9d58;
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-right {
+  flex: 1;
+  position: relative;
+}
+
+.hero-right img.bg {
+  width: 710px;
+  height: 694px;
+  object-fit: cover;
+}
+
+.circle-logo {
+  position: absolute;
+  top: -75px;
+  left: -75px;
+  width: 160px;
+  height: 160px;
+  animation: rotate 3s linear infinite;
+
+
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.collection {
+  text-align: center;
+  padding: 60px 20px;
+  background: #fdfdfd;
+}
+
+.collection h2 {
+  margin-bottom: 60px;
+  font-size: 24px;
+}
+
+
+footer {
+ background-color: wheat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+footer .logo {
+  font-weight: bold;
+  font-size: 18px;
+  color: #0A775F;
+}
+
+footer nav a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.socials a img {
+  width: 20px;
+  margin-left: 15px;
+}
+
+
+
+
+

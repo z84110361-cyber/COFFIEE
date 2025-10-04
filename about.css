@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #f4e2ce;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2c2c2c;
+}
+
+nav a {
+  margin-left: 2rem;
+  text-decoration: none;
+  color: #2c2c2c;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 4rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-us {
+  background-color: #f4e2ce;
+}
+
+.about-us .text {
+  flex: 1 1 50%;
+  padding-right: 2rem;
+}
+
+.about-us .image {
+  flex: 1 1 40%;
+}
+
+.about-us img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.commitment {
+  background-color: #f7f7f7;
+  flex-direction: row-reverse;
+}
+
+.commitment .text,
+.commitment .image {
+  flex: 1 1 50%;
+  padding: 1rem;
+}
+
+.commitment img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.quality {
+  background-color: #e0cdb9;
+}
+
+.quality .text,
+.quality .image {
+  flex: 1 1 50%;
+  padding: 1rem;
+}
+
+.quality img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+footer {
+ background-color: wheat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+footer .logo {
+  font-weight: bold;
+  font-size: 18px;
+  color: #0A775F;
+}
+
+footer nav a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.socials a img {
+  width: 20px;
+  margin-left: 15px;
+}
+
+
+body{
+  background-color: bisque;
+}
